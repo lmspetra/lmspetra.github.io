@@ -1,0 +1,82 @@
+.HALAMAN-DEPAN {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.HALAMAN-DEPAN .div {
+  background-image: url(./img/gambar.png);
+  background-size: 100% 100%;
+  width: 1300.78px;
+  height: 720px;
+  position: relative;
+}
+
+.HALAMAN-DEPAN .LEARNING-MANAGEMENT {
+  position: absolute;
+  width: 626px;
+  height: 306px;
+  top: 148px;
+  left: 327px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Kameron-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HALAMAN-DEPAN .p-p-p-k-p-e-t-r-a {
+  position: absolute;
+  width: 116px;
+  top: 170px;
+  left: 1164px;
+  font-family: "Kameron-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HALAMAN-DEPAN .DASH-BTN {
+  display: inline-flex;
+  flex-direction: column;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  position: absolute;
+  top: 503px;
+  left: 496px;
+}
+
+.HALAMAN-DEPAN .back-tombol {
+  position: relative;
+  width: 297px;
+  height: 70px;
+  margin-top: -1px;
+  margin-bottom: -9px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.HALAMAN-DEPAN .text-wrapper {
+  position: absolute;
+  width: 203px;
+  height: 46px;
+  top: 6px;
+  left: 42px;
+  font-family: "Calibri-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
